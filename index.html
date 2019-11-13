@@ -6,11 +6,11 @@
     <a-scene embedded arjs>
 
     <a-assets>
-      <a-asset-item id="atv" src="\models\Humvee.obj"></a-asset-item>
+      <a-asset-item id="atv-obj" src="\models\Humvee.obj"></a-asset-item>
     </a-assets>
         
   	<a-marker preset="kanji">
-      <a-entity collada-model="#atv"></a-entity>
+      <a-entity obj-model="obj: #tree-obj"></a-entity>      
   	</a-marker>
     <a-entity camera></a-entity>
     <a-scene stats></a-scene>
